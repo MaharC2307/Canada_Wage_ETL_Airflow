@@ -33,7 +33,6 @@ This repository contains an ETL (Extract, Transform, Load) pipeline that extract
 - **dags/**: Contains the main Airflow DAG script (`extract_transform_load_dag.py`) that orchestrates the workflow.
 - **transform&load_wage.ipynb**: Contains the transformation logic implemented using Databricks.
 - **analyzing_wage_airflow.ipynb**: Jupyter notebook that analyzes the cleaned data stored in S3.
-- **requirements.txt**: Lists dependencies required for the project.
 - **README.md**: Provides project description, setup, and usage instructions.
 
 ## Setup Instructions
