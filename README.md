@@ -40,5 +40,5 @@ This repository contains an ETL (Extract, Transform, Load) pipeline that extract
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/data-extraction-transformation-airflow.git
-   cd data-extraction-transformation-airflow
+   git clone https://github.com/MaharC2307/Canada_Wage_ETL_Airflow.git
+   cd Canada_Wage_ETL_Airflow
