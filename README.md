@@ -1,5 +1,8 @@
 # Data Extraction and Transformation Pipeline
 
+![ETL Pipeline](etl_pipeline.png)
+
+
 This repository contains an ETL (Extract, Transform, Load) pipeline that extracts average hourly earnings data from Statistics Canada, transforms it in Databricks, and saves the results to an AWS S3 bucket. The entire pipeline is orchestrated using Apache Airflow.
 
 ## Project Overview
