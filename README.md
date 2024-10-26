@@ -9,8 +9,8 @@ This repository contains an ETL (Extract, Transform, Load) pipeline that extract
 
 1. **Extraction**: 
    - The project extracts data on **average hourly earnings for employees paid by the hour**, categorized by industry and year.
-   - The extraction is done using the `stats_can` library, which is responsible for fetching the data from the Statistics Canada website. Note that filtering and querying capabilities are not provided by this library; instead, they are handled during the transformation phase.
-
+   - The extraction is done using the `stats_can` library, which is responsible for fetching the data from the Statistics Canada website.
+     
 2. **Transformation**: 
    - The extracted data undergoes several transformation steps in Databricks, which include:
      - **Data Cleaning**: Removing irrelevant columns and filtering out poor-quality data to ensure a clean dataset for analysis.
@@ -33,10 +33,10 @@ This repository contains an ETL (Extract, Transform, Load) pipeline that extract
 
 ## Directory Structure
 
-- **dags/**: Contains the main Airflow DAG script (`extract_transform_load_dag.py`) that orchestrates the workflow.
-- **transform&load_wage.ipynb**: Contains the transformation logic implemented using Databricks.
-- **analyzing_wage_airflow.ipynb**: Jupyter notebook that analyzes the cleaned data stored in S3.
-- **README.md**: Provides project description, setup, and usage instructions.
+- **[dags/](dags/)**: Contains the main Airflow DAG script (`extract_transform_load_dag.py`) that orchestrates the workflow.
+- **[transform&load_wage.ipynb](transform&load_wage.ipynb)**: Contains the transformation logic implemented using Databricks.
+- **[analyzing_wage_airflow.ipynb](analyzing_wage_airflow.ipynb)**: Jupyter notebook that analyzes the cleaned data stored in S3.
+- **[README.md](README.md)**: Provides project description, setup, and usage instructions.
 
 ## Setup Instructions
 
